@@ -1,5 +1,12 @@
-#title {
-  color: #A37; }
+.wrapper {
+  display: flex;
+  flex-direction: column; }
 
-h1 {
-  text-align: center; }
+.clouds {
+  height: 100px;
+  width: 100%;
+  border-bottom: solid 1px black; }
+
+.tree {
+  width: 30%;
+  margin: 15% auto; }
