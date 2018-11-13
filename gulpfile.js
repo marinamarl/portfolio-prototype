@@ -39,7 +39,6 @@ gulp.task('js', function() {
 });
 
 gulp.task('watch', function() {
-  gulp.watch(coffeeSources, ['coffee']);
   gulp.watch(jsSources, ['js']);
   gulp.watch(sassSources, ['sass']);
   gulp.watch(htmlSources, ['html']);
@@ -59,11 +58,3 @@ gulp.task('html', function() {
 
 gulp.task('default', ['html', 'js', 'sass', 'connect', 'watch']);
 
-
-// We did some refactoring and created variables to hold file paths.
-// Created a new html task so we can watch for the changes in HTML files which we then pipe to reload(), and made the task part of the watch task.
-// Added .pipe(connect.reload()) at the end of js and sass tasks so that the server reloads every time they execute.
-// Made a new default task that will first do all the processing, create a server and keep a watch
-// Now we have an integrated workflow. To try it out run:
-//
-// gulp
