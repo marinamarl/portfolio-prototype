@@ -9,4 +9,7 @@
 
 .tree {
   width: 30%;
-  margin: 5% auto; }
+  margin: 10% auto; }
+  .tree embed {
+    margin: auto;
+    width: 100%; }
