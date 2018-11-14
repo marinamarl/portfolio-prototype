@@ -3,10 +3,10 @@
   flex-direction: column; }
 
 .clouds {
-  height: 100px;
+  height: 3vh;
   width: 100%;
   border-bottom: solid 1px black; }
 
 .tree {
   width: 30%;
-  margin: 15% auto; }
+  margin: 5% auto; }
