@@ -1,0 +1,48 @@
+.wrapper{
+	display: flex;
+	flex-direction: column;
+}
+.clouds{
+	height: 100px;
+	width: 100%;
+	border-bottom:solid 1px black;
+}
+// .person{
+// 	margin: 15% auto;
+// 	.head{
+// 		height: 60px;
+// 		width: 60px;
+// 		border-radius: 60%;
+// 		border:solid 1px black;
+// 		margin:auto;
+// 	}
+// 	.upper-body{
+// 		display: flex;
+// 		.arm{
+// 			height: 50px;
+// 			width: 10px;
+// 			border:solid 1px black;
+// 		}
+// 		.chest{
+// 			height: 50px;
+// 			width: 50px;
+// 			border:solid 1px black;
+// 		}
+// 	}
+// 	.legs{
+// 		display: flex;
+// 		margin: auto;
+// 		width: 60px;
+// 		justify-content: space-evenly;
+// 		.leg{
+// 			height: 50px;
+// 			width: 10px;
+// 			border:solid 1px black;
+// 		}
+// 	}
+// }
+
+.tree{
+	width: 30%;
+	margin: 15% auto;
+}

@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  flex-direction: column; }
+
+.clouds {
+  height: 100px;
+  width: 100%;
+  border-bottom: solid 1px black; }
+
+.tree {
+  width: 30%;
+  margin: 15% auto; }
